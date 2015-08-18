@@ -6,7 +6,7 @@
         <div>
             <h1><a href="">Django Girls Blog</a></h1>
         </div>
-        {% for post on posts %}
+        {% for post in posts %}
             <div class = blogposts>
                 <p>Published: {{ post.published_date }}</p>
                 <h2>{{ post.title }}</h2>
